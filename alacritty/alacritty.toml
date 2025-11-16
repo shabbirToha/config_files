@@ -1,0 +1,21 @@
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "0xProto Nerd Font" }
+bold = { family = "0xProto Nerd Font" }
+italic = { family = "0xProto Nerd Font" }
+size = 11
+
+[window]
+padding.x = 0
+padding.y = 0
+decorations = "None"
+
+[keyboard]
+bindings = [
+{ key = "Insert", mods = "Shift", action = "Paste" },
+{ key = "Insert", mods = "Control", action = "Copy" }
+]
